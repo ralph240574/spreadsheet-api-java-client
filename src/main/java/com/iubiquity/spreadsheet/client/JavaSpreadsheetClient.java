@@ -13,10 +13,9 @@ import com.google.api.client.http.HttpTransport;
 import com.google.api.client.http.HttpUnsuccessfulResponseHandler;
 import com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.api.client.http.xml.atom.AtomParser;
-import com.google.api.client.xml.XmlNamespaceDictionary;
-import com.iubiquity.spreadsheets.client.AbstractSpreadsheetClient;
+import com.iubiquity.spreadsheets.client.SpreadsheetClient;
 
-public class SpreadsheetClient extends AbstractSpreadsheetClient {
+public class JavaSpreadsheetClient extends SpreadsheetClient {
 
 	private static final String GOOGLE_SPREADSHEET_SAMPLE = "Google-Spreadsheet-API";
 
@@ -26,7 +25,7 @@ public class SpreadsheetClient extends AbstractSpreadsheetClient {
 
 	private String consumerSecret;
 
-	public SpreadsheetClient(String enterOauthConsumerKey,
+	public JavaSpreadsheetClient(String enterOauthConsumerKey,
 			String enterOauthConsumerSecret) {
 		this.consumerKey = enterOauthConsumerKey;
 		this.consumerSecret = enterOauthConsumerSecret;

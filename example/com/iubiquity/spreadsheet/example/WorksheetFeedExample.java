@@ -2,7 +2,7 @@ package com.iubiquity.spreadsheet.example;
 
 import com.google.api.client.http.HttpResponseException;
 import com.iubiquity.spreadsheet.client.ClientCredentials;
-import com.iubiquity.spreadsheet.client.SpreadsheetClient;
+import com.iubiquity.spreadsheet.client.JavaSpreadsheetClient;
 import com.iubiquity.spreadsheets.model.SpreadsheetEntry;
 import com.iubiquity.spreadsheets.model.SpreadsheetFeed;
 import com.iubiquity.spreadsheets.model.WorksheetFeed;
@@ -17,7 +17,7 @@ public class WorksheetFeedExample {
 
 	public static void main(String[] args) {
 
-		SpreadsheetClient client = new SpreadsheetClient(
+		JavaSpreadsheetClient client = new JavaSpreadsheetClient(
 				ClientCredentials.ENTER_OAUTH_CONSUMER_KEY,
 				ClientCredentials.ENTER_OAUTH_CONSUMER_SECRET);
 

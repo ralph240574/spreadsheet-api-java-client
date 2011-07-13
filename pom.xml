@@ -74,5 +74,12 @@
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+        	<groupId>com.iubiquity</groupId>
+        	<artifactId>spreadsheet-api</artifactId>
+        	<version>1.0</version>
+        	<type>jar</type>
+        	<scope>compile</scope>
+        </dependency>
     </dependencies>
 </project>

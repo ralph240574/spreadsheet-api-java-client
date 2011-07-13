@@ -9,6 +9,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.google.api.client.http.HttpResponseException;
+import com.iubiquity.spreadsheets.client.SpreadsheetClient;
 import com.iubiquity.spreadsheets.model.CellEntry;
 import com.iubiquity.spreadsheets.model.CellFeed;
 import com.iubiquity.spreadsheets.model.SpreadsheetFeed;
@@ -29,11 +30,11 @@ public class SpreadsheetClientTest {
 	private final static String SHARED_WORKSHEET_FEED = "https://spreadsheets.google.com/feeds/worksheets/ttOb9mZkUr3fIkkTOGxyL5w/private/full";
 	private final static String SHARED_CELLFEED = "https://spreadsheets.google.com/feeds/cells/ttOb9mZkUr3fIkkTOGxyL5w/od6/private/full";
 
-	private static SpreadsheetClient client;
+	private static JavaSpreadsheetClient client;
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		client = new SpreadsheetClient(
+		client = new JavaSpreadsheetClient(
 				ClientCredentials.ENTER_OAUTH_CONSUMER_KEY,
 				ClientCredentials.ENTER_OAUTH_CONSUMER_SECRET);
 		client.authorize();
