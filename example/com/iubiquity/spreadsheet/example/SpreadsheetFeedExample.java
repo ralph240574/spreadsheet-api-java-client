@@ -3,7 +3,7 @@ package com.iubiquity.spreadsheet.example;
 import com.google.api.client.http.HttpResponseException;
 import com.iubiquity.spreadsheet.client.ClientCredentials;
 import com.iubiquity.spreadsheet.client.SpreadsheetClient;
-import com.iubiquity.spreadsheet.client.model.SpreadsheetFeed;
+import com.iubiquity.spreadsheets.model.SpreadsheetFeed;
 
 /**
  * 

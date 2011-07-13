@@ -1,15 +1,17 @@
 package com.iubiquity.spreadsheet.example;
 
-import com.iubiquity.spreadsheet.client.model.CellEntry;
-import com.iubiquity.spreadsheet.client.model.CellFeed;
-import com.iubiquity.spreadsheet.client.model.Link;
-import com.iubiquity.spreadsheet.client.model.SpreadsheetEntry;
-import com.iubiquity.spreadsheet.client.model.SpreadsheetFeed;
-import com.iubiquity.spreadsheet.client.model.WorksheetData;
-import com.iubiquity.spreadsheet.client.model.WorksheetFeed;
+
 
 import java.util.Map.Entry;
 import java.util.SortedMap;
+
+import com.iubiquity.spreadsheets.model.CellEntry;
+import com.iubiquity.spreadsheets.model.CellFeed;
+import com.iubiquity.spreadsheets.model.Link;
+import com.iubiquity.spreadsheets.model.SpreadsheetEntry;
+import com.iubiquity.spreadsheets.model.SpreadsheetFeed;
+import com.iubiquity.spreadsheets.model.WorksheetData;
+import com.iubiquity.spreadsheets.model.WorksheetFeed;
 
 public class View {
 
