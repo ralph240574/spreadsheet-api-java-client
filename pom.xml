@@ -69,7 +69,7 @@
         </dependency>
         <dependency>
             <groupId>com.iubiquity</groupId>
-            <artifactId>spreadsheet-api-model</artifactId>
+            <artifactId>spreadsheet-api</artifactId>
             <version>1.0</version>
             <type>jar</type>
             <scope>compile</scope>
