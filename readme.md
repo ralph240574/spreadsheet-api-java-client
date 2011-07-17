@@ -27,7 +27,7 @@ Build with Maven:
 Note when Maven runs the the Unit tests it will open a browser window and ask for access to your Google account. This is necessary to receive the oauth token for authentication. You can use any google account for this, but your account information will never be exposed to the client directly.
 
 ##How to use the client
-For example how to use the client look at the examples in the Examples folder. For an introduction.
+For example how to use the client look at the examples in the Examples folder.
 
 Here is an introduction for the [Google Spreadsheet API] (http://code.google.com/apis/spreadsheets/).
 
