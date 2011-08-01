@@ -1,6 +1,6 @@
 #Google Spreadsheet API Java Client
 
-This API can be used to acces Google Spreadsheets. It uses the newer [Google API Java Client](http://code.google.com/p/google-api-java-client/).
+This API can be used to acces Google Spreadsheets using Java. It uses the newer [Google API Java Client](http://code.google.com/p/google-api-java-client/).
 
 
 ## How to get started
